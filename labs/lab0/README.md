@@ -54,3 +54,34 @@ username@computer: ~ %
 Try these commands yourself to verify that everything looks similar.
 
 Notice that the directory path and list of files that you see if you open your home folder graphically are identical to those provided by `pwd` and `ls`, respectively. The only difference is how you get the information, how the information is displayed, and how easy it is to write a script that, say, processes all the Python files in a directory.
+
+## Change Directory
+<table class="align-default table" border="0">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 77%">
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">&lt;path-name&gt;</span></code></p></td>
+<td><p>change to the directory path-name</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">..</span></code></p></td>
+<td><p>move up/back one directory</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">cd</span></code></p></td>
+<td><p>move to your home directory</p></td>
+</tr>
+</tbody>
+</table>
+
+How can we move around in the file system? If we were using a graphical system, we would double click on folders and occasionally click the “back” arrow. In order to change directories in the terminal, we use `cd` (change directory) followed by the name of the destination directory. (A note about notation: we will use text inside angle brackets, such as `<path-name>` as a place holder. The text informally describes the type of value that should be supplied. In the case of `<path-name>`, the desired value is the path-name for a file or directory. More about path-names later.) For example if we want to change to the `Desktop` directory, we type the following in the terminal:
+```
+cd Desktop
+```
+
+# Git
+
+Git is a system used for developing software in a group. This system maintains files and all changes that are applied to them. You will each have a personal Git repository that is hosted on a central server. The server stores the project files and stores all changes to those files that have been uploaded to the repository.
+
+We will use GitHub as our Git server, and you all should already have your GitHub accounts set up and running.
+
