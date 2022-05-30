@@ -1,12 +1,3 @@
-# Lab 0: Terminal and Git Usage
-
-## Objectives
-
-<ol>
-  <li>Learn basic terminal commands and how to work with a text editor</li>
-  <li>Learn to run a Python program from the command-line</li>
-</li>
-
 ## Terminal
 
 On your computer, you probably navigate your hard drive by double clicking on icons. While convenient for simple tasks, this approach is limited. For example, imagine that you want to delete all of the music files over 5 MB that you haven’t listened to in over a year. This task is very hard to do with the standard double-click interface but is relatively simple using the terminal.
