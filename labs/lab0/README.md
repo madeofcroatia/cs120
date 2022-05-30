@@ -79,9 +79,3 @@ How can we move around in the file system? If we were using a graphical system, 
 cd Desktop
 ```
 
-# Git
-
-Git is a system used for developing software in a group. This system maintains files and all changes that are applied to them. You will each have a personal Git repository that is hosted on a central server. The server stores the project files and stores all changes to those files that have been uploaded to the repository.
-
-We will use GitHub as our Git server, and you all should already have your GitHub accounts set up and running.
-
